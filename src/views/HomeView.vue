@@ -1,7 +1,7 @@
 <template>
   <div>
 <hero-view/>
-<about-view/>
+<skills-view/>
 <portfolio/>
 <contact-view/>
   </div>
@@ -12,11 +12,11 @@
 
 <script>
 import HeroView from '@/components/HeroView.vue'
-import AboutView from '@/components/AboutView.vue'
+import SkillsView from '@/components/SkillsView.vue'
 import Portfolio from '@/components/Portfolio.vue'
 import ContactView from '@/components/ContactView.vue'
 export default {
- components:{HeroView, AboutView,Portfolio,ContactView},
+ components:{HeroView, SkillsView,Portfolio,ContactView},
 setup(){
   return{
  
